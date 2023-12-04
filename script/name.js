@@ -267,9 +267,9 @@ function alphabetF(height) {
 
 function alphabetG(height) {
     let str = ""
-    for (let row = 0; row <= height; row++) {
+    for (let row = 0; row < height; row++) {
         for (let col = 0; col < height; col++) {
-            if ((row == 0 && col != 0 && col!= height-1)|| (col==height-1&&row==1) || (col == 0 && row != 0 && row <= height - 1) || (row == height  && col < height / 2  && col != 0) || col == height / 2  && (row >= height / 2 && row <= height -1) || (row == height / 2 && col >= height / 2) || (col == height - 1 && row > height / 2)) {
+            if ((row == 0 && col != 0 && col!= height-1)|| (col==height-1&&row==1) || (col == 0 && row != 0 && row <= height - 2) || (row == height-1  && col < height / 2  && col != 0) || col == height / 2  && (row >= height / 2 && row <= height -1) || (row == height / 2 && col >= height / 2) || (col == height - 1 && row > height / 2)) {
                 str += "g "
             }
             else
@@ -283,7 +283,7 @@ function alphabetG(height) {
 
 function alphabetH(height) {
     let str = ""
-    for (let row = 0; row <= height; row++) {
+    for (let row = 0; row < height; row++) {
         for (let col = 0; col <= height / 2; col++) {
             if (col == 0 || col == height / 2 || row == height / 2) {
                 str += "h "
@@ -429,7 +429,7 @@ function alphabetQ(height) {
     let str = ""
     for (let row = 0; row < height; row++) {
         for (let col = 0; col < height; col++) {
-            if ((col == 0 && row != 0 && row < height / 2 + 1) || ((row == 0 || row == height / 2 + 1) && col != 0 && col <= height / 2 + 1) || ((col == height / 2 + 2) && row != 0 && row < height / 2 + 1) || (row + 1 == col && row >= height / 2 - 1)) {
+            if ((col == 0 && row != 0 && row < height / 2 + 1) || ((row == 0 || row == height / 2 + 1) && col != 0 && col <= height / 2 + 1) || ((col == height / 2 + 2) && row != 0 && row < height / 2 + 1) || (row + 1 == col+1 && row >= height / 2 - 1)) {
                 str += "q "
             }
             else
@@ -459,9 +459,9 @@ function alphabetR(height) {
 
 function alphabetS(height) {
     let str = ""
-    for (let row = 0; row <= height; row++) {
+    for (let row = 0; row < height; row++) {
         for (let col = 0; col < height; col++) {
-            if ((row == 0 && col != 0&&col!=height-1)||(col==height-1&&row==1) || (row == height / 2 && col != height - 1 && col != 0) ||(row==height-1&&col==0)|| (col!=0 && row == height && col != height - 1) || (col == 0 && row > 0 && row < height / 2) || (col == height - 1 && row > height / 2 && row < height)) {
+            if ((row == 0 && col != 0&&col!=height-1)||(col==height-1&&row==1) || (row == height / 2 && col != height - 1 && col != 0) ||((row==height-2&&col==0)||(row==height-2&&col==height-1))|| (col!=0 && row == height-1 && col != height - 1) || (col == 0 && row > 0 && row < height / 2) || (col == height - 1 && row > height / 2 && row < height-1)) {
                 str += "s "
             }
             else
@@ -474,7 +474,7 @@ function alphabetS(height) {
 
 function alphabetT(height) {
     let str = ""
-    for (let row = 0; row <= height; row++) {
+    for (let row = 0; row < height; row++) {
         for (let col = 0; col < height; col++) {
             if (row == 0 || col == height / 2) {
                 str += "t "
@@ -539,7 +539,7 @@ function alphabetW(height) {
 
 function alphabetX(height) {
     let str = ""
-    for (let row = 0; row <= height; row++) {
+    for (let row = 0; row < height; row++) {
         for (let col = 0; col <= height; col++) {
             if ((row == col || row + col == height)) {
                 str += "x "
@@ -570,9 +570,9 @@ function alphabetY(height) {
 
 function alphabetZ(height) {
     let str = ""
-    for (let row = 0; row <= height; row++) {
+    for (let row = 0; row < height; row++) {
         for (let col = 0; col <= height; col++) {
-            if (row == 0 || row == height || row + col == height) {
+            if (row == 0 || row == height-1 || row + col == height) {
                 str += "z "
             }
             else

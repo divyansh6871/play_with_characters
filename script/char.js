@@ -176,6 +176,7 @@ function alphabetA(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetB(height) {
@@ -191,6 +192,7 @@ function alphabetB(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 function alphabetC(height) {
     let str = ""
@@ -205,6 +207,7 @@ function alphabetC(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 function alphabetD(height) {
     let str = ""
@@ -219,6 +222,7 @@ function alphabetD(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetE(height) {
@@ -234,6 +238,7 @@ function alphabetE(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetF(height) {
@@ -249,6 +254,7 @@ function alphabetF(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetG(height) {
@@ -264,6 +270,7 @@ function alphabetG(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetH(height) {
@@ -279,6 +286,7 @@ function alphabetH(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetI(height) {
@@ -294,6 +302,7 @@ function alphabetI(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetJ(height) {
@@ -309,6 +318,7 @@ function alphabetJ(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetK(height) {
@@ -324,6 +334,7 @@ function alphabetK(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetL(height) {
@@ -339,6 +350,7 @@ function alphabetL(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetM(height) {
@@ -354,6 +366,7 @@ function alphabetM(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetN(height) {
@@ -369,6 +382,7 @@ function alphabetN(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetO(height) {
@@ -384,6 +398,7 @@ function alphabetO(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetP(height) {
@@ -399,6 +414,7 @@ function alphabetP(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetQ(height) {
@@ -414,6 +430,7 @@ function alphabetQ(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetR(height) {
@@ -429,6 +446,7 @@ function alphabetR(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetS(height) {
@@ -444,6 +462,7 @@ function alphabetS(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetT(height) {
@@ -459,6 +478,7 @@ function alphabetT(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetU(height) {
@@ -474,6 +494,7 @@ function alphabetU(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetV(height) {
@@ -489,6 +510,7 @@ function alphabetV(height) {
         str += "<br>"
     }
     document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 
@@ -504,6 +526,7 @@ function alphabetW(height) {
         }
         str += "<br>"
     } document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetX(height) {
@@ -518,6 +541,7 @@ function alphabetX(height) {
         }
         str += "<br>"
     } document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetY(height) {
@@ -532,6 +556,7 @@ function alphabetY(height) {
         }
         str += "<br>"
     } document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 function alphabetZ(height) {
@@ -546,6 +571,7 @@ function alphabetZ(height) {
         }
         str += "<br>"
     } document.getElementById("pat").innerHTML = `<pre>${str}</pre>`
+    document.getElementById("pat2").innerHTML = `<pre>${str}</pre>`
 }
 
 // alphabetA(10)

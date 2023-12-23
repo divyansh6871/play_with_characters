@@ -260,6 +260,29 @@ nav{
     }
 }
 
+.mainchar1{    
+    animation: maincharacter1 4s ease none infinite ;
+}
+
+@keyframes maincharacter1 {
+    0%{
+        color: yellow;
+    }
+    25%{
+        color: aqua;
+    }
+    50%{
+        color: #fb5607;
+    }
+    75%{
+        color: aqua;
+    }
+    100%{
+        color: #80ed99;
+    }
+}
+
+
 .rotate{
     animation: rotateaxis 4s ease none infinite ;
 }

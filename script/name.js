@@ -1,4 +1,5 @@
 getchar = () => {
+    document.getElementById("pat").innerHTML = ""
     let char = document.getElementById("character").value
     var len = char.length
     console.log(len)

@@ -584,28 +584,3 @@ function alphabetZ(height) {
     document.getElementById("pat").innerHTML = document.getElementById("pat").innerHTML + `<div style="float: left;margin-left: 10px; margin-right: 10px;max-width: fit-content;;"><pre>${str}</pre><div>`
 }
 
-
-// alphabetA(10)
-// alphabetB(10)
-// alphabetC(10)
-// alphabetD(10)
-// alphabetE(10)
-// alphabetF(10)
-// alphabetG(10)
-// alphabetH(10)
-// alphabetI(10)
-// alphabetJ(10)
-// alphabetK(10)
-// alphabetL(10)
-// alphabetM(10)
-// alphabetN(10)
-// alphabetO(10)// alphabetP(10)
-// alphabetQ(10)
-// alphabetR(10)
-// alphabetS(12)
-// alphabetT(12)
-// alphabetU(12)
-// alphabetV(12)
-// alphabetW(12)
-// alphabetX(12)// alphabetY(12)
-// alphabetZ(12)
